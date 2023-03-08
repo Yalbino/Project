@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="main">
+       <header>
+           <a href="About me.html" class="logo">YA</a>
+           <div class="toggleMenu" onclick="menuToggle();"></div>
+ 
+           <ul class="menu">
+        
+               <li><a href="About me.html">About Me</a></li>
+               <li><a href="Projects.html">Projects</a></li>
+               <li><a href="https://albino43.wordpress.com">Blog</a></li>
+               <li><a href="Resume.html">Resume</a></li>
+               <li><a href="Contact.html">Contact Me</a></li>
+           </ul>
+       </header>
+       <div class="content">
+        <h1>I'm Yaraili Albino</h1>
+        <h2>Web Designer</h2>
+        <p>About me</p>
+           <p>Hello, my name is Yaraili Albino. I am a graphic and web designer living in North Carolina with 2 years of experience. My expertise is to create and website design, graphic design. As a web designer I will create and keep up with websites, including the layout, and function according to the client.!</p>
+           <a href="Contact.html">Hire Me</a>
+           <p><a href="https://twitter.com/YarailiAlbino" class="fa fa-twitter"></a> <a href="https://www.linkedin.com/in/albinoyaraili/" class="fa fa-linkedin"></a>
+          
+
+       </div>
+       <div class="custom-shape-divider-bottom-1619063140">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+ <img src="Myself.jpg" alt="" width="440" height="450">
+   </section>
+
+   <script>
+       function menuToggle(){
+           const toggleMenu = document.querySelector('.toggleMenu');
+           const menu = document.querySelector('.menu');
+           toggleMenu.classList.toggle('active')
+           menu.classList.toggle('active')
+       }
+   </script>
+       <div class="copyright">
+        <p>&#169; Yaraili Albino 2023</p>
+        
+    </div>
+</body>
+<footer>
+           
+</footer>
+</html>
